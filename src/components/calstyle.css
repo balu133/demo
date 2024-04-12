@@ -1,0 +1,18 @@
+.container{
+      display: grid;
+      grid-template-columns: repeat(4,60px);
+      border: 2px solid aqua;
+      grid-template-rows: minmax(60px,auto) repeat(5,50px);
+      grid-gap: 8px;
+      justify-content: center;
+}
+.display{
+     grid-column: span 4;
+     text-align: right;
+     display: flex;
+     align-items: flex-end;
+     justify-content: flex-end;
+}
+.zero{
+    grid-column: 1/3;
+}

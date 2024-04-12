@@ -1,0 +1,16 @@
+.app{
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    color:black;
+    margin-left:145px;
+}
+.boxdemo{
+     text-align: center;
+     margin-top: 50px;
+     height: 80px;
+     width: auto;
+     padding: 50px;
+     background-color: rgb(208, 208, 100);
+     
+}
